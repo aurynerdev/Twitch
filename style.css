@@ -1,0 +1,425 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: rgb(24, 24, 27);
+  height: 50px;
+  border-bottom: 1px solid black;
+  box-shadow: 0 0 20px black;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  width: 100vw;
+  justify-content: space-between;
+  position: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.end {
+  display: flex;
+  gap: 10px;
+}
+
+.start {
+  display: flex;
+  gap: 30px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.entrar,
+.cadastro {
+  border: 0;
+  border-radius: 3px;
+  padding: 8px 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+}
+
+.entrar {
+  background-color: rgb(45, 45, 52);
+}
+
+.cadastro {
+  background-color: rgb(145, 71, 255);
+}
+
+#pontos {
+  display: flex;
+  flex-direction: column;
+  line-height: 6px;
+  font-size: 20px;
+  padding: 4px 10px;
+}
+
+p {
+  transform: translateY(-5px);
+}
+
+.pesquisar {
+  background-color: rgb(46, 46, 53);
+  border: 0;
+  height: 100%;
+  width: 7%;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: 0;
+  background-color: rgb(61, 61, 63);
+  height: 100%;
+  width: 70%;
+  border-radius: 5px 0 0 5px;
+  padding: 7px 12px;
+}
+
+.pesquisas {
+  width: 500px;
+  height: 35px;
+  display: flex;
+  gap: 1px;
+  justify-content: center;
+}
+
+::placeholder {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(196, 196, 197);
+}
+
+#canaish {
+  background-color: rgb(31, 31, 35);
+  height: 100vh;
+  width: 240px;
+  display: block;
+  position: fixed;
+  top: 50px;
+}
+
+body {
+  overflow: hidden;
+}
+
+h5 {
+  color: white;
+}
+
+.recomendados {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px;
+}
+
+.canal>img {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  height: 30px;
+  width: 30px;
+}
+
+h6 {
+  color: rgb(180, 179, 179);
+  font-size: 13px;
+  font-family: 'Anuphan', sans-serif;
+}
+
+.canal {
+  display: flex;
+  gap: 10px;
+  padding: 4px 13px;
+}
+
+.canal-titulo {
+  margin-bottom: 1px;
+}
+
+.redball {
+  border-radius: 50%;
+  background-color: red;
+  width: 8px;
+  height: 8px;
+}
+
+.viewers {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bluelock {
+  width: 100%;
+}
+
+.canal:hover {
+  background-color: rgb(38, 38, 44);
+}
+
+.numerodview {
+  color: rgb(209, 209, 209);
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  max-width: 100%;
+  display: flex;
+}
+
+.layout {
+  background-color: rgb(14, 14, 16);
+  width: calc(100vw - 240px);
+  min-height: 100vh;
+  top: 50px;
+  position: relative;
+  left: 240px;
+  z-index: -1;
+}
+
+.livesae {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+.saeback {
+  background-color: rgb(23, 23, 26);
+  height: 300px;
+  width: 220px;
+  box-shadow: 0 0 8px;
+}
+
+.bluelockcanal {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.titulocanal {
+  display: flex;
+  color: rgb(191, 148, 255);
+  font-weight: 600;
+  padding-top: 3px;
+}
+
+.liveabout {
+  color: rgb(191, 148, 255);
+  font-size: 14px;
+  padding-top: 3px;
+}
+
+.blview {
+  color: white;
+  padding-top: 3px;
+}
+
+.canalgeral {
+  display: flex;
+}
+
+.canalinfo {
+  padding-top: 13px;
+  padding-left: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.but1 {
+  background-color: rgb(45, 45, 52);
+  border: 0;
+  color: rgb(177, 177, 177);
+  padding: 3px 8px;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.saebutton {
+  margin: 10px;
+}
+
+n {
+  color: white;
+  font-size: 14px;
+  flex-direction: column;
+}
+
+.textlive {
+  margin-left: 8px;
+}
+
+.livefoto {
+  box-shadow: 0 0 8px;
+}
+
+.aovivo {
+  border: 0;
+  background-color: red;
+  color: white;
+  padding: 4px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.but2 {
+  position: absolute;
+  margin: 5px;
+}
+
+.card {
+  display: flex;
+  position: relative;
+}
+
+.rinpng {
+  position: absolute;
+  z-index: -1;
+  margin-left: 400px;
+  box-shadow: 0 0 8px black;
+  margin-top: 19px;
+}
+
+.nagipng {
+  position: absolute;
+  z-index: -1;
+  margin-left: -180px;
+  box-shadow: 0 0 8px black;
+  margin-top: 19px;
+}
+
+.opacity1 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+}
+
+.isagipng {
+  position: absolute;
+  z-index: -2;
+  box-shadow: 0 0 8px black;
+  margin-top: 38px;
+  margin-left: -350px;
+}
+
+.shidoupng {
+  position: absolute;
+  z-index: -2;
+  box-shadow: 0 0 8px black;
+  margin-top: 38px;
+  margin-left: 570px;
+}
+
+.whitez {
+  color: white;
+  margin-top: 70px;
+  margin-left: 24px;
+}
+
+.canaisgeral {
+  box-shadow: 0 0 8px black;
+}
+
+.imagemcanais {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  height: 40px;
+  width: 40px;
+}
+
+.divcanais {
+  margin-top: 10px;
+  margin-left: 24px;
+  display: flex;
+  gap: 10px;
+}
+
+.displaycanal {
+  display: flex;
+  margin-top: 7px;
+}
+
+.margincraques {
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+.but3 {
+  background-color: rgb(33, 33, 35);
+  border: 0;
+  color: rgb(177, 177, 177);
+  padding: 3px 8px;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.margintop1 {
+  margin-top: 3px;
+}
+
+.risco {
+  display: flex;
+  height: 1px;
+  margin-top: 20px;
+}
+
+.risco1 {
+  border: 1px solid rgba(46, 46, 53, 0.7);
+  align-self: center;
+  justify-self: center;
+  margin-top: 37px;
+  width: 720px;
+  margin-left: 25px;
+}
+
+.maiss {
+  align-self: center;
+  justify-self: center;
+  margin-top: 37px;
+  margin-left: 27px;
+  font-size: small;
+  font-weight: 600;
+}
+
+.girar {
+  transform: rotate(180deg);
+}
+
+.risco2 {
+  border: 1px solid rgba(46, 46, 53, 0.7);
+  align-self: center;
+  justify-self: center;
+  margin-top: 37px;
+  width: 720px;
+  margin-left: 27px;
+}
+
+.aovivooo {
+  position: relative;
+}
